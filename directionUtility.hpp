@@ -1,0 +1,8 @@
+//
+// Created by kuren on 19.01.2022.
+//
+
+#ifndef SORTS_DIRECTIONUTILITY_HPP
+#define SORTS_DIRECTIONUTILITY_HPP
+
+#endif //SORTS_DIRECTIONUTILITY_HPP

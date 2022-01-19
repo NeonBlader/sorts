@@ -1,0 +1,14 @@
+//
+// Created by kuren on 19.01.2022.
+//
+
+#ifndef SORTS_INSERTIONSORTWITHBINARYSEARCH_HPP
+#define SORTS_INSERTIONSORTWITHBINARYSEARCH_HPP
+
+
+class insertionSortWithBinarySearch {
+
+};
+
+
+#endif //SORTS_INSERTIONSORTWITHBINARYSEARCH_HPP
