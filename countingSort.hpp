@@ -25,7 +25,7 @@ void countingSort(std::vector<T> &collection, T min, T max, Direction direction)
       break;
   }
   std::vector<T> temp(max - min + 1, 0);
-  for (const std::size_t &i : collection) {
+  for (const T &i : collection) {
     temp[i - min]++;
   }
   std::size_t startPos = 0;
