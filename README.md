@@ -7,12 +7,7 @@ This repository contains the following sorting algorithms:
 
 **It is worth paying attention to the following points:**
 
-* To use Heap sort and Insertion sort for some type, this type must have appropraite operators:
-
-| Algorithm      | Ascending  | Descending |
-|----------------|------------|------------|
-| Heap sort      | operator > | operator < |
-| Insertion sort | operator < | operator > |
+* To use Heap sort and Insertion sort for some type in both directions, this type must have correct implementation of operator <
 
 * Counting sort only supports non-negative integers
 
