@@ -12,8 +12,8 @@
 template<class T, class = typename std::enable_if<std::is_integral<T>::value>::type>
 void countingSort(std::vector<T> &collection, T min, T max, Direction direction)
 {
-  if (min < 0) {
-    throw std::invalid_argument("Minimum element can't be negative for counting sort");
+  if ((min < 0) || (max < 0) || (min > max)) {
+    throw std::invalid_argument("Elements must be positive and max must be more than min");
   }
   std::function<void(std::size_t&)> changeCounter;
   switch (direction) {
