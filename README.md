@@ -4,10 +4,11 @@ This repository contains the following sorting algorithms:
 * Heap sort
 * Counting sort
 * Insertion sort with binary search
+* Selection sort
 
 **It is worth paying attention to the following points:**
 
-* To use Heap sort and Insertion sort for some type in both directions, this type must have correct implementation of operator <
+* To use Heap sort, Insertion sort and Selection sort for some type in both directions, this type must have correct implementation of operator <
 
 * Counting sort only supports non-negative integers
 
