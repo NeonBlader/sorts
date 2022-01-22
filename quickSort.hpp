@@ -52,8 +52,8 @@ void quickSort(std::vector<T> &collection, Direction direction, PivotType pivotT
   }
   std::swap(collection[finish], collection[pivot]);
 
-  std::size_t u = start; //Begin of Unsorted part
-  std::size_t q = start; //Begin of more-elements part
+  std::size_t u = start;
+  std::size_t q = start;
   for (std::size_t i = start; i <= finish; ++i) {
     if (i == finish) {
       std::swap(collection[i], collection[q]);
