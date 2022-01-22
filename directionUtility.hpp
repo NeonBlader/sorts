@@ -8,8 +8,6 @@ enum Direction {
   DESCENDING
 };
 
-Direction convertDirection(const std::string &direction);
-
 template<class T>
 bool isLess(const T &left, const T &right)
 {
